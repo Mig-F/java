@@ -5,9 +5,12 @@ import com.company.Ex2.Dog;
 public class Nursery {
     int i = 0;
 Dog[] dogs = new Dog[6];
-    public void addDog(int age, String name) {
-        dogs[i].setAge(age);
-        dogs[i].setName(name);
+    public void addDog(Dog dog) {
+        dogs[i] = dog;
         i++;
+    }
+    public Dog[] list()
+    {
+        return dogs;
     }
 }
