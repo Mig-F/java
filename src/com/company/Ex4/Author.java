@@ -1,4 +1,4 @@
-package com.company.Ex3;
+package com.company.Ex4;
 
 public class Author {
     private String name;
